@@ -82,7 +82,7 @@ article#tour_summary p:first-of-type::first-line {
 }
 
 /* Aside Styles */
-/* Attaches the ID's to the aside elements. */
+/* Attaches the ID's to the aside elements and sets their font sizes. */
 aside#tour_itinerary h1 {
     font-size: 1.2em;
 }
@@ -95,6 +95,7 @@ aside#tour_itinerary p {
     font-size: .8em;
 }
 
+/* Sets the color of all odd numbers comments to a greenish color while changing the evens to a lavender. */
 aside p:nth-of-type(odd) {
     color: rgb(79, 91, 40);
 }
@@ -112,12 +113,13 @@ aside h2:nth-of-type(even) {
 }
 
 /* Blockquote Styles */
+/* Sets color for the background where the quote is located.*/
 blockquote {
     background-color: rgb(173, 189, 227);
     color: rgb(255, 255, 255);
     opacity: .65;
 }
-
+/* Sets the top and bottom of padding to 2.5 pixels while left and right are 10 pixels. */
 blockquote p {
     padding: 2.5px 10px;
 }
